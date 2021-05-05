@@ -1,4 +1,4 @@
-# heic-jpg-linux
+# heic-jpg-convert-linux
 
 How to convert Apple iPhone's .HEIC images to .jpg via Linux Terminal:
 
