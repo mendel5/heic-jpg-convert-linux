@@ -2,13 +2,14 @@
 
 How to convert Apple iPhone's .HEIC images to .jpg via Linux Terminal.
 
-In recent Ubuntu versions (>= 18.04):
+These commands can be used in recent Ubuntu versions (>= 18.04).
 
+Open a terminal and paste this command:
 ```
 sudo apt install libheif-examples
 ```
 
-Open the folder containing the .HEIC images:
+Open the folder containing the .HEIC images in the terminal (e.g. by using `cd` and `ls`). Then use the following command:
 ```
 for file in *.HEIC; do heif-convert $file ${file/%.HEIC/.jpg}; done
 ```
